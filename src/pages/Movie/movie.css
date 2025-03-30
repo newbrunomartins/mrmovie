@@ -1,0 +1,41 @@
+.movieInfo{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.dadosMovie{
+    padding: 0 15px;
+    text-align: justify;
+}
+.movieInfo img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.movieInfo h1 span{
+    font-size: 14px;
+    font-weight: 100;
+    color: yellowgreen;
+}
+.movieInfo h1 .averageNote{
+    font-size: 24px;
+    font-weight: 800;
+}
+.movieSinopse{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.areaButtons button{
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.areaButtons button + button{
+    background-color: rgb(50, 205, 177);
+}
+.areaButtons button, .areaButtons button a{
+    color: #000;
+}

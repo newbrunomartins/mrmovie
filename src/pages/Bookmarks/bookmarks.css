@@ -1,0 +1,35 @@
+.myMovies{
+    margin: 50px auto 0;
+    width: 90%;
+    max-width: 680px;
+}
+.myMovies h1{
+    margin-bottom: 25px;
+}
+.myMovies ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+    padding: 10px 0 0;
+}
+.myMovies li div{
+    min-width: 180px;
+}
+.myMovies a{
+    margin-right: 10px;
+    background-color: yellowgreen;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.myMovies .garbage{
+    background-color: rgb(234, 4, 4);
+    border: none;
+}
+.myMovies a, .myMovies .garbage{
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 3px; 
+    cursor: pointer;
+}
